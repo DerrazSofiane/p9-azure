@@ -7,7 +7,6 @@ import pandas as pd
 
 load_dotenv()
 CONNECTION_STRING = os.getenv("CONNECTION_STRING")
-print(CONNECTION_STRING)
 
 
 class AzureBlobStorage:
